@@ -7,7 +7,7 @@ const colors = require('colors');
 let listarTabla = (base, limite = 10) => {
 
     console.log('=========================='.green);
-    console.log(`====Tabla del ${base} hasta el ${limite}======`.green);
+    console.log(`====Tabla del ${base} hasta el ${limite}=`.green);
     console.log('=========================='.green);
     for (let index = 1; index <= limite; index++) {
         console.log(`${base} * ${index} = ${index * base}`.red);
